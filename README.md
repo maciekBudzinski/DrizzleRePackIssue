@@ -22,3 +22,14 @@ var ExampleTable = (0,drizzle_orm_pg_core__WEBPACK_IMPORTED_MODULE_0__.pgTable)(
 ```
 
 As you can see the `boolean` function is not imported correctly in bundled code.
+
+
+How to run example:
+
+Make sure you have [React Native Environment set up correctly](https://reactnative.dev/docs/set-up-your-environment).
+```
+npm install
+npx pod-install
+npm run start
+npm run android / npm run ios
+```
